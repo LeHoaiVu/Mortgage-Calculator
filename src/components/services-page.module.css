@@ -1,0 +1,129 @@
+.services {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.servicesContent {
+    margin: 160px 150px 0px;
+}
+.headerService {
+    max-width: 680px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 84px;
+    margin-bottom: 60px;
+}
+
+.listService {
+    display: flex;
+}
+
+.serviceItem {
+    text-align: center;
+    background: var(--white);
+    width: 30%;
+    margin: 1.66%;
+    cursor: pointer;
+}
+
+.groupIconService {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: -25px;
+}
+
+.checkIconCover {
+    margin: 0 auto;
+}
+
+.checkIcon {
+    margin-top: -150px;
+}
+
+.serviceText {
+    margin-top: 75px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+}
+
+.serviceText p {
+    color: #5f626b;
+}
+
+.backToHome {
+    display: flex;
+}
+
+.backToHome span {
+    margin: 7px 5px 0px 0px;
+}
+
+.backToHome article:hover {
+    color: #0099cc;
+}
+@media only screen and (max-width: 1085px) {
+    .servicesContent {
+        margin: 160px 55px 0px;
+    }
+
+    .headerService {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 75px;
+    }
+
+    .checkIconCover {
+        width: 100%;
+    }
+
+    .checkIcon {
+        margin-top: -135px;
+    }
+    .serviceText p {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .services {
+        overflow: auto;
+    }
+
+    .servicesContent {
+        margin: 80px 0px 20px;
+    }
+
+    .headerService {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .listService {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serviceItem {
+        width: 70%;
+        margin: 1.66%;
+    }
+
+    .checkIcon {
+        margin-top: -170px;
+    }
+}
